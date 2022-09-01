@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
+        backgroundColor: Colors.blueGrey,
         appBar: AppBar(
           title: const Text('My page'),
         ),
@@ -25,12 +26,17 @@ class MyApp extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Container(
-                color: Colors.green,
+                color: Colors.white,
                 height: 100,
                 width: 100,
               ),
               Container(
                 color: Colors.blue,
+                height: 100,
+                width: 100,
+              ),
+              Container(
+                color: Colors.red,
                 height: 100,
                 width: 100,
               ),
